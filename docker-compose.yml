@@ -14,7 +14,7 @@ services:
     env_file:
       - .env
     ports:
-      - 2000:2000
+      - 2000:7860
     stdin_open: true
     tty: true
     deploy:
